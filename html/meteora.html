@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meteora</title>
+</head>
+<body>
+    <ul>
+        회원정보 입력
+        <hr />
+        * 표시는 필수 입력 사항입니다.
+
+        <br />
+        <form action="meteora.html" method="get">
+            <fieldset>
+                <legend></legend>
+        <li>
+            <label for="userNAME"><b>사용자 이름</b></label><input type="text" id="userNAME"></li>
+        <li>
+            <label for="userID"><b>아이디</b></label><input type="text" id="userID">
+            <input type="button" value="중복확인"><br />
+            - 영문, 숫자 조합으로 6~20자까지 사용가능합니다.<br />
+            - 첫 글자는 영문으로 설정해 주십시오.
+        </li>
+        <li> <label for="userPW"><b>비밀번호</b></label><input type="password" id="userPW"><br />
+            - 영문, 숫자, 특수 문자 조합으로 8~20자까지 사용가능합니다. (영문은 대소문자 구분)<br />
+            - 유출되기 쉬운 비밀번호는 등록할 수 없습니다.(예:111, abcd, password 등)
+        </li>
+        <li> <label for="userPWcheck"><b>비밀번호 확인</b></label><input type="password" id="userPWcheck"></li>
+        <li> <label for="userEmail"><b>이메일</b></label><input type="text" id="userEmail"> @ <input type="text"> <br />
+             <b>연락처</b> <input type="text"> - <input type="text"> - <input type="text"></li>
+        <li> <label for="userPhone"><b>휴대전화</b></label><input type="text" id="userPhone"> - <input type="text"> - <input type="text"></li>
+        <li> <label for="userAdress"><b>주소</b></label><input type="text" id="userAdress"> - <input type="text"> <input type="button" value="주소찾기"> <br />
+        <input type="text">
+        <input type="text"> <br />
+        </li>
+
+
+
+    </ul>
+
+    <ul>
+        <input type="submit" value="회원가입">
+    </ul>
+</form>
+</body>
+</html>
